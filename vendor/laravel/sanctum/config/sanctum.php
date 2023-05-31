@@ -24,7 +24,7 @@ return [
     /*
     |--------------------------------------------------------------------------
     | Sanctum Guards
-    |--------------------------------------------------------------------------
+    |--------------------------------------------------------------------------,
     |
     | This array contains the authentication guards that will be checked when
     | Sanctum is trying to authenticate a request. If none of these guards
