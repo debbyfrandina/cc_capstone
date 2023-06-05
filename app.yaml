@@ -2,7 +2,7 @@ runtime: php
 env: flex
 
 runtime_config: 
-  document_root: public
+  document_root: .
 
 # Ensure we skip ".env", which is only for local development
 skip_files: 
@@ -23,5 +23,12 @@ env_variables:
     APP_ENV: production
     APP_KEY: base64:WLmFdcszUOyepOUL4dtwNviAAYA3NLNNEaIo/rEXXaQ=
     APP_NAME: "GCP App - CODE"
+
+    DB_CONNECTION: mysql
+    DB_HOST: 34.101.152.159
+    DB_PORT: 3306
+    DB_DATABASE: root
+    DB_USERNAME: root
+    DB_PASSWORD: plantcycopedianew
 
     LOG_LEVEL: debug
